@@ -24,7 +24,7 @@
     "extra": {
         "bootstrap": "\\dicr\\helper\\Bootstrap"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": [
         {"type": "composer", "url": "https://asset-packagist.org"}

@@ -1,0 +1,52 @@
+{
+    "name": "dicr/yii2-helper",
+    "type": "yii2-extension",
+    "license": "GPL-3.0-or-later",
+    "description": "Набор вспомогательных утилит для Yii2",
+    "keywords": ["dicr", "yii2", "helper"],
+    "homepage": "https://gitlab.com/dicr/yii2-helper",
+    "support": {
+        "source": "https://gitlab.com/dicr/yii2-helper.git"
+    },
+    "authors": [
+        {
+            "name": "Igor Tarasov",
+            "email": "develop@dicr.org",
+            "homepage": "https://dicr.org",
+            "role": "developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "dicr\\helper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "dicr\\tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "bootstrap": "\\dicr\\helper\\Bootstrap"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "repositories": [
+        {"type": "composer", "url": "https://asset-packagist.org"}
+    ],
+    "require": {
+        "php": "~8.0",
+        "ext-mbstring": "*",
+        "ext-intl": "*",
+
+        "yiisoft/yii2": "~2.0",
+        "yiisoft/yii2-bootstrap5": "~2.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": "~9.5"
+    },
+    "conflict": {
+        "yiisot/yii2-bootstrap4": "*"
+    }
+}

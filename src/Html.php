@@ -29,7 +29,7 @@ use const ENT_QUOTES;
 /**
  * Html helper.
  */
-class Html extends \yii\bootstrap5\Html
+class Html extends \yii\helpers\Html
 {
     /**
      * Синоним encode.
